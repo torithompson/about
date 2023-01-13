@@ -1,0 +1,60 @@
+body {
+  font-family: garamond, "Times new roman", serif;
+  font-size: medium;
+  color: #212121;
+  background-color: lightgray;
+}
+h1 {
+  font-size: xx-large;
+}
+p {
+  color: #363636;
+  font-size: large;
+}
+ol {
+  list-style: upper-alpha;
+  border: #212121 solid 0.25em;
+  width: 40%;
+  margin-left: 10em;
+}
+ul {
+  list-style: disc;
+}
+a:link {
+  color: blue;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: green;
+  opacity: 0.5;
+}
+a:active {
+  color: purple;
+}
+.maincontainer {
+  padding: 1em;
+  min-width: 20em;
+  margin: 1em;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+.footercontainer {
+  color: darkmagenta;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  margin-bottom: 1em;
+  width: 100%;
+}
+.headings {
+  text-align: center;
+  padding: 1.5em;
+  margin: -0.5em;
+  margin-bottom: -1em;
+  background-color: white;
+}
+.center {
+  text-align: center;
+}
