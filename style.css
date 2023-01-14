@@ -24,13 +24,18 @@ ul {
   flex-direction: row;
 }
 .intro {
-  flex: 1;
+  flex: 0.5;
 }
 .aboutme {
   flex: 1;
 }
+.welcome {
+  flex: 0.5;
+  padding-top: 5em;
+  font-size: larger;
+}
 .github {
-  flex: 1;
+  display: flex;
   margin-left: 5em;
   margin-bottom: 5em;
 }
