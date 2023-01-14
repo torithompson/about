@@ -52,6 +52,7 @@ ul {
 }
 .websites {
   flex: 1;
+  border-left: 1px solid black;
 }
 .footercontainer {
   color: #ffffff;
