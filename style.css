@@ -42,10 +42,18 @@ ul {
   padding-left: 1em;
   font-size: x-large;
 }
-.github {
+.projects {
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.github {
+  flex: 1;
   margin-left: 5em;
   margin-bottom: 5em;
+}
+.websites {
+  flex: 1;
 }
 .footercontainer {
   color: #ffffff;
