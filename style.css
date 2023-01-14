@@ -6,6 +6,7 @@ body {
 }
 h1 {
   font-size: xx-large;
+  color: #ffffff;
 }
 p {
   color: #363636;
@@ -42,19 +43,20 @@ a:active {
   margin-bottom: 3em;
 }
 .footercontainer {
-  color: darkmagenta;
+  color: #ffffff;
   padding: 1em;
   position: fixed;
   bottom: 0;
   margin-bottom: 1em;
   width: 100%;
+  background-color: #000000;
 }
 .headings {
   text-align: center;
   padding: 1.5em;
   margin: -0.5em;
   margin-bottom: -1em;
-  background-color: white;
+  background-color: black;
 }
 .center {
   text-align: center;
