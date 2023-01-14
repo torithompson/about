@@ -23,16 +23,24 @@ ul {
   flex-wrap: wrap;
   flex-direction: row;
 }
+.topcontainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-bottom: 1em;
+}
 .intro {
   flex: 0.5;
+  padding-left: 5em;
 }
 .aboutme {
   flex: 1;
 }
 .welcome {
   flex: 0.5;
-  padding-top: 5em;
-  font-size: larger;
+  padding-top: 3em;
+  padding-left: 1em;
+  font-size: x-large;
 }
 .github {
   display: flex;
