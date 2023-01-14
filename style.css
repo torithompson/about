@@ -12,27 +12,8 @@ p {
   color: #363636;
   font-size: large;
 }
-ol {
-  list-style: upper-alpha;
-  border: #212121 solid 0.25em;
-  width: 40%;
-  margin-left: 10em;
-}
 ul {
   list-style: disc;
-}
-a:link {
-  color: blue;
-}
-a:visited {
-  color: red;
-}
-a:hover {
-  color: green;
-  opacity: 0.5;
-}
-a:active {
-  color: purple;
 }
 .maincontainer {
   padding: 1em;
