@@ -58,3 +58,7 @@ a:active {
 .center {
   text-align: center;
 }
+.picture {
+  height: 300;
+  width: 300;
+}
