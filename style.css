@@ -4,8 +4,8 @@ body {
   color: #212121;
   background-color: lightgray;
 }
-h1 {
-  font-size: xx-large;
+h1,
+h2 {
   color: #ffffff;
 }
 p {
@@ -41,14 +41,28 @@ a:active {
   margin-left: 3em;
   margin-right: 3em;
   margin-bottom: 3em;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.intro {
+  flex: 1;
+}
+.aboutme {
+  flex: 1;
+}
+.github {
+  flex: 1;
+  margin-left: 5em;
 }
 .footercontainer {
   color: #ffffff;
-  padding: 1em;
+  padding-bottom: 1em;
   position: fixed;
   bottom: 0;
-  margin-bottom: 1em;
   width: 100%;
+  margin-left: -0.5em;
+  margin-right: -0.5em;
   background-color: #000000;
 }
 .headings {
