@@ -1,1 +1,1 @@
-Check out my github page - [ReadMe](torithompson.github.io/index.html)
+Check out my github page - [ReadMe]( https://github.com/torithompson/torithompson.github.io/index.html)
