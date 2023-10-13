@@ -1,5 +1,5 @@
 body {
-  font-family: "papyrus", "helvetica", "sans-serif";
+  font-family: "Roboto", sans-serif;
   font-size: medium;
   color: #212121;
 }
@@ -122,7 +122,7 @@ ul {
   z-index: 5;
 }
 /*for guessing game*/
-@import url("https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto'");
 .main {
   height: 40vh;
   display: flex;
