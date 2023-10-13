@@ -24,9 +24,12 @@ let highScore = 0;
 let message = "";
 document.querySelector(".check").addEventListener("click", function () {
   const guess = Number(document.querySelector(".guess").value);
+  message = "";
   if (score > 1) {
     if (!guess) {
       message = "No number!";
+    } else if (guess > 20 || guess < 1) {
+      message = "Number must be between 1-20";
     } else if (secretNumber === guess) {
       message = " 🎉 Correct Number!";
       document.querySelector(".number").textContent = secretNumber;
@@ -57,3 +60,18 @@ document.querySelector(".again").addEventListener("click", function () {
   document.querySelector(".guess").value = "";
   document.querySelector(".number").textContent = "?";
 });
+
+var input = document.getElementById('number'), 
+    result = document.getElementById('result');
+    check = document.getElementById('checkBtn');
+  
+input.addEventListener('blur', validate);
+
+function validate(e) {
+  var isValid = e.target.checkValidity();
+  if (! isValid) {
+    result.textContent = 'Number must be between 1-20';
+  } else {
+    result.textContent = '';
+  }
+}
