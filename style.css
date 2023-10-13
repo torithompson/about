@@ -143,10 +143,10 @@ ul {
   color: #333;
   font-size: 5rem;
   width: 10rem;
-  padding: 3rem 0rem;
+  /* padding: 3rem 0rem; */
   text-align: center;
   position: relative;
-  margin-left: 3em;
+  margin-left: 5em;
 }
 .between {
   font-size: 1.4rem;
@@ -182,9 +182,14 @@ ul {
   background-color: #ccc;
 }
 .message {
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
   height: 3rem;
 }
 .label-score {
   margin-bottom: 2rem;
+}
+
+input[type=number]:invalid {
+  border: 2px solid red;
+  outline: none;
 }
