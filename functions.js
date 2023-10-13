@@ -66,7 +66,6 @@ var input = document.getElementById('number'),
     check = document.getElementById('checkBtn');
   
 input.addEventListener('blur', validate);
-
 function validate(e) {
   var isValid = e.target.checkValidity();
   if (! isValid) {
