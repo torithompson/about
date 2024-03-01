@@ -30,11 +30,12 @@ ul {
 .intro {
   flex: 0.5;
   padding-left: 0em;
-  max-width: fit-content;
+  width: 0px;
   height: 300px;
   border-radius: 50%;
   overflow: hidden;
   border: 2px solid black;
+  max-width: fit-content;
   margin-right: 200px;
 }
 .aboutme {
