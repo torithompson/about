@@ -29,12 +29,13 @@ ul {
 }
 .intro {
   flex: 0.5;
-  padding-left: 5em;
-  width: 300px; 
-  height: 300px; 
-  border-radius: 50%; 
+  padding-left: 0em;
+  max-width: fit-content;
+  height: 300px;
+  border-radius: 50%;
   overflow: hidden;
-  border: 2px solid black; 
+  border: 2px solid black;
+  margin-right: 200px;
 }
 .aboutme {
   flex: 1;
