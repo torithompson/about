@@ -36,7 +36,8 @@ ul {
   overflow: hidden;
   border: 2px solid black;
   max-width: fit-content;
-  margin-right: 200px;
+  margin-right: 300px;
+  margin-left: 100px;
 }
 .aboutme {
   flex: 1;
